@@ -47,7 +47,7 @@ The device could assist Radiologists to detect Pneumonia in patients and lower t
 
 ### 2. Algorithm Design and Function
 
-<< Insert Algorithm Flowchart >>
+<img src="images/workflow_diagram.drawio.png">
 
 **DICOM Checking Steps:**
 - Modality == 'DX' (Digital Radiography)
@@ -154,7 +154,7 @@ _________________________________________________________________
 <img src="images/precision-recall-curve.png" height="180">
 
 #### Final Threshold and Explanation
-Threshold=0.13216244
+Threshold=0.12956019
 
 <img src="images/f1-score.png" height="180">
 
@@ -163,18 +163,18 @@ The F1 score chart has a U-shape between thresholds 0.1 and 0.85. As the model i
 #### Performance on validation set
 <img src="images/cm-validation.png" height="180">
 
-f1-score: 0.37
-Recall: 0.7
+f1-score: 0.40
+Recall: 0.72
 Precision: 0.25
-Specificity: 0.48
+Specificity: 0.53
 
 #### Performance on test set
 <img src="images/cm-test.png" height="180">
 
-f1-score: 0.39
+f1-score: 0.41
 Recall: 0.73
-Precision: 0.27
-Specificity: 0.49
+Precision: 0.28
+Specificity: 0.54
 
 
 ### 4. Databases
